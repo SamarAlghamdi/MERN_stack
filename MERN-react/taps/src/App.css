@@ -1,0 +1,30 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+p {
+  display: none;
+  margin: 10px;
+}
+
+.active {
+  display: block;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
